@@ -1,0 +1,71 @@
+/* base class */
+.flex{
+  display: flex;
+}
+.body{
+  background-image: url(mini.jpg);
+}
+
+/* base class */
+
+.header{
+  width: 100%;
+  height: 80px;
+  background-color: lightgrey;
+}
+.logo{
+  width: 30%;
+  height: 100%;
+}
+.img-logo{
+  height: 100%;
+
+}
+.middle{
+  width: 70%;
+  height: 100%
+
+}
+.nav-ul{
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-li{
+  width: 25%;
+  height: 100%;
+  background-color: yellow;
+
+}
+
+
+/* main class */
+.background-img{
+  width: 100%;
+  height: 100%;
+}
+.mini{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+.cars{
+  width: 320px;
+  height: 260px;
+  background-color: grey;
+  opacity: 0.5;
+  float: left;
+  position: absolute;
+  margin: 20px;
+}
+.cars-ul{
+  height: 100%;
+  width: 100%;
+}
+.cars-li{
+  width: 100%;
+  height: 25%;
+}
+.icon{
+  width: 60px;
+}
